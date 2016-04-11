@@ -1,6 +1,6 @@
 #include <GL/freeglut.h>
 
-void RenderSceneRC()
+void RenderSceneCB()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glutSwapBuffers();
@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
 
 	glClearColor(0.8f, 0.3f, 0.1f, 1.0f);
 
-	glutDisplayFunc(RenderSceneRC);
+	glutDisplayFunc(RenderSceneCB);
 
 	glutMainLoop();
 
