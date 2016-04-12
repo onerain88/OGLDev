@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T2_Hello_Dot", "T2_Hello_Do
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T3_First_Triangle", "T3_First_Triangle\T3_First_Triangle.vcxproj", "{5550B47B-5AC6-4DD4-8ED3-8FC8E7A11D9A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T4_Shader", "T4_Shader\T4_Shader.vcxproj", "{3E65E057-AD86-40E1-917E-61CF5AA0FCAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{5550B47B-5AC6-4DD4-8ED3-8FC8E7A11D9A}.Debug|Win32.Build.0 = Debug|Win32
 		{5550B47B-5AC6-4DD4-8ED3-8FC8E7A11D9A}.Release|Win32.ActiveCfg = Release|Win32
 		{5550B47B-5AC6-4DD4-8ED3-8FC8E7A11D9A}.Release|Win32.Build.0 = Release|Win32
+		{3E65E057-AD86-40E1-917E-61CF5AA0FCAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E65E057-AD86-40E1-917E-61CF5AA0FCAA}.Debug|Win32.Build.0 = Debug|Win32
+		{3E65E057-AD86-40E1-917E-61CF5AA0FCAA}.Release|Win32.ActiveCfg = Release|Win32
+		{3E65E057-AD86-40E1-917E-61CF5AA0FCAA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
