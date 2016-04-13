@@ -26,9 +26,9 @@ void InitializeGlutCallbacks()
 void CreateVertexBuffer()
 {
 	Vector3f vertices[3];
-	vertices[0] = Vector3f(-0.5f, -0.5f, 0.0f);
-	vertices[1] = Vector3f(0.5f, -0.5f, 0.0f);
-	vertices[2] = Vector3f(0.0f, 0.5f, 0.0f);
+	vertices[0] = Vector3f(-1.0f, -1.0f, 0.0f);
+	vertices[1] = Vector3f(1.0f, -1.0, 0.0f);
+	vertices[2] = Vector3f(0.0f, 1.0f, 0.0f);
 
 	glGenBuffers(1, &VBO);
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);

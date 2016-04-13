@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T3_First_Triangle", "T3_Fir
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T4_Shader", "T4_Shader\T4_Shader.vcxproj", "{3E65E057-AD86-40E1-917E-61CF5AA0FCAA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T5_Uniform_Variables", "T5_Uniform_Variables\T5_Uniform_Variables.vcxproj", "{FF9349FD-6601-48D8-8BB6-3776685C31D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{3E65E057-AD86-40E1-917E-61CF5AA0FCAA}.Debug|Win32.Build.0 = Debug|Win32
 		{3E65E057-AD86-40E1-917E-61CF5AA0FCAA}.Release|Win32.ActiveCfg = Release|Win32
 		{3E65E057-AD86-40E1-917E-61CF5AA0FCAA}.Release|Win32.Build.0 = Release|Win32
+		{FF9349FD-6601-48D8-8BB6-3776685C31D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF9349FD-6601-48D8-8BB6-3776685C31D0}.Debug|Win32.Build.0 = Debug|Win32
+		{FF9349FD-6601-48D8-8BB6-3776685C31D0}.Release|Win32.ActiveCfg = Release|Win32
+		{FF9349FD-6601-48D8-8BB6-3776685C31D0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
