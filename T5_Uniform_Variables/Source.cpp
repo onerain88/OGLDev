@@ -21,7 +21,9 @@ void RenderSceneCB()
 	glEnableVertexAttribArray(0);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
 
-	glUniform1f(glGetUniformLocation(shaderProgram, "_scale"), 0.3f);
+	static float scale = 0.1f;
+	scale += 0.001f;
+	glUniform1f(glGetUniformLocation(shaderProgram, "_scale"), sin(scale));
 
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 	glDisableVertexAttribArray(0);
@@ -101,6 +103,12 @@ void CompileShader()
 	}
 }
 
+void InitializeGlutCallbacks()
+{
+	glutDisplayFunc(RenderSceneCB);
+	glutIdleFunc(RenderSceneCB);
+}
+
 int main(int argc, char* argv[])
 {
 	glutInit(&argc, argv);
@@ -118,7 +126,8 @@ int main(int argc, char* argv[])
 
 	glClearColor(0.8f, 0.3f, 0.1f, 1.0f);
 
-	glutDisplayFunc(RenderSceneCB);
+	InitializeGlutCallbacks();
+	
 	CompileShader();
 	CreateVertices();
 
