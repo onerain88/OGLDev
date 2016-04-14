@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T4_Shader", "T4_Shader\T4_S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T5_Uniform_Variables", "T5_Uniform_Variables\T5_Uniform_Variables.vcxproj", "{FF9349FD-6601-48D8-8BB6-3776685C31D0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T6_Translation_Transformation", "T6_Translation_Transformation\T6_Translation_Transformation.vcxproj", "{53579289-2738-426F-8CD0-4B5B8DA9A7B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{FF9349FD-6601-48D8-8BB6-3776685C31D0}.Debug|Win32.Build.0 = Debug|Win32
 		{FF9349FD-6601-48D8-8BB6-3776685C31D0}.Release|Win32.ActiveCfg = Release|Win32
 		{FF9349FD-6601-48D8-8BB6-3776685C31D0}.Release|Win32.Build.0 = Release|Win32
+		{53579289-2738-426F-8CD0-4B5B8DA9A7B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53579289-2738-426F-8CD0-4B5B8DA9A7B9}.Debug|Win32.Build.0 = Debug|Win32
+		{53579289-2738-426F-8CD0-4B5B8DA9A7B9}.Release|Win32.ActiveCfg = Release|Win32
+		{53579289-2738-426F-8CD0-4B5B8DA9A7B9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
