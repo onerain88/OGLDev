@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T5_Uniform_Variables", "T5_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T6_Translation_Transformation", "T6_Translation_Transformation\T6_Translation_Transformation.vcxproj", "{53579289-2738-426F-8CD0-4B5B8DA9A7B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T7_Rotation_Transformation", "T7_Rotation_Transformation\T7_Rotation_Transformation.vcxproj", "{28511A33-4DA6-4001-BFD5-3B8BC83D0A22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -45,6 +47,10 @@ Global
 		{53579289-2738-426F-8CD0-4B5B8DA9A7B9}.Debug|Win32.Build.0 = Debug|Win32
 		{53579289-2738-426F-8CD0-4B5B8DA9A7B9}.Release|Win32.ActiveCfg = Release|Win32
 		{53579289-2738-426F-8CD0-4B5B8DA9A7B9}.Release|Win32.Build.0 = Release|Win32
+		{28511A33-4DA6-4001-BFD5-3B8BC83D0A22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28511A33-4DA6-4001-BFD5-3B8BC83D0A22}.Debug|Win32.Build.0 = Debug|Win32
+		{28511A33-4DA6-4001-BFD5-3B8BC83D0A22}.Release|Win32.ActiveCfg = Release|Win32
+		{28511A33-4DA6-4001-BFD5-3B8BC83D0A22}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
