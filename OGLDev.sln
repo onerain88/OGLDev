@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T7_Rotation_Transformation"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T8_Scaling_Transformation", "T8_Scaling_Transformation\T8_Scaling_Transformation.vcxproj", "{78679A5E-4198-4023-BE0A-A59227EBD358}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T9_Interpolation", "T9_Interpolation\T9_Interpolation.vcxproj", "{D0D8FD90-1138-4C41-AD68-6AC1DC381E7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -57,6 +59,10 @@ Global
 		{78679A5E-4198-4023-BE0A-A59227EBD358}.Debug|Win32.Build.0 = Debug|Win32
 		{78679A5E-4198-4023-BE0A-A59227EBD358}.Release|Win32.ActiveCfg = Release|Win32
 		{78679A5E-4198-4023-BE0A-A59227EBD358}.Release|Win32.Build.0 = Release|Win32
+		{D0D8FD90-1138-4C41-AD68-6AC1DC381E7D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0D8FD90-1138-4C41-AD68-6AC1DC381E7D}.Debug|Win32.Build.0 = Debug|Win32
+		{D0D8FD90-1138-4C41-AD68-6AC1DC381E7D}.Release|Win32.ActiveCfg = Release|Win32
+		{D0D8FD90-1138-4C41-AD68-6AC1DC381E7D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
