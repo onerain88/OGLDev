@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T8_Scaling_Transformation",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T9_Interpolation", "T9_Interpolation\T9_Interpolation.vcxproj", "{D0D8FD90-1138-4C41-AD68-6AC1DC381E7D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T10_Indexed_Draws", "T10_Indexed_Draws\T10_Indexed_Draws.vcxproj", "{D30F12E8-0502-4E65-9239-714021F06CB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,10 @@ Global
 		{D0D8FD90-1138-4C41-AD68-6AC1DC381E7D}.Debug|Win32.Build.0 = Debug|Win32
 		{D0D8FD90-1138-4C41-AD68-6AC1DC381E7D}.Release|Win32.ActiveCfg = Release|Win32
 		{D0D8FD90-1138-4C41-AD68-6AC1DC381E7D}.Release|Win32.Build.0 = Release|Win32
+		{D30F12E8-0502-4E65-9239-714021F06CB3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D30F12E8-0502-4E65-9239-714021F06CB3}.Debug|Win32.Build.0 = Debug|Win32
+		{D30F12E8-0502-4E65-9239-714021F06CB3}.Release|Win32.ActiveCfg = Release|Win32
+		{D30F12E8-0502-4E65-9239-714021F06CB3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
