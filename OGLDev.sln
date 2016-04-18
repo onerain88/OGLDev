@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T9_Interpolation", "T9_Inte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T10_Indexed_Draws", "T10_Indexed_Draws\T10_Indexed_Draws.vcxproj", "{D30F12E8-0502-4E65-9239-714021F06CB3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T11_Concatenating_Transformations", "T11_Concatenating_Transformations\T11_Concatenating_Transformations.vcxproj", "{568CAA00-9D3F-4BBF-988A-347135C394C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -69,6 +71,10 @@ Global
 		{D30F12E8-0502-4E65-9239-714021F06CB3}.Debug|Win32.Build.0 = Debug|Win32
 		{D30F12E8-0502-4E65-9239-714021F06CB3}.Release|Win32.ActiveCfg = Release|Win32
 		{D30F12E8-0502-4E65-9239-714021F06CB3}.Release|Win32.Build.0 = Release|Win32
+		{568CAA00-9D3F-4BBF-988A-347135C394C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{568CAA00-9D3F-4BBF-988A-347135C394C1}.Debug|Win32.Build.0 = Debug|Win32
+		{568CAA00-9D3F-4BBF-988A-347135C394C1}.Release|Win32.ActiveCfg = Release|Win32
+		{568CAA00-9D3F-4BBF-988A-347135C394C1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
