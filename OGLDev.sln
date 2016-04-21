@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T10_Indexed_Draws", "T10_In
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T11_Concatenating_Transformations", "T11_Concatenating_Transformations\T11_Concatenating_Transformations.vcxproj", "{568CAA00-9D3F-4BBF-988A-347135C394C1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T12_Perspective_Projection", "T12_Perspective_Projection\T12_Perspective_Projection.vcxproj", "{E9F1646E-B052-4C35-8ECD-86CEED2B47B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -75,6 +77,10 @@ Global
 		{568CAA00-9D3F-4BBF-988A-347135C394C1}.Debug|Win32.Build.0 = Debug|Win32
 		{568CAA00-9D3F-4BBF-988A-347135C394C1}.Release|Win32.ActiveCfg = Release|Win32
 		{568CAA00-9D3F-4BBF-988A-347135C394C1}.Release|Win32.Build.0 = Release|Win32
+		{E9F1646E-B052-4C35-8ECD-86CEED2B47B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9F1646E-B052-4C35-8ECD-86CEED2B47B6}.Debug|Win32.Build.0 = Debug|Win32
+		{E9F1646E-B052-4C35-8ECD-86CEED2B47B6}.Release|Win32.ActiveCfg = Release|Win32
+		{E9F1646E-B052-4C35-8ECD-86CEED2B47B6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
