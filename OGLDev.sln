@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T11_Concatenating_Transform
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T12_Perspective_Projection", "T12_Perspective_Projection\T12_Perspective_Projection.vcxproj", "{E9F1646E-B052-4C35-8ECD-86CEED2B47B6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T13_Camera_Space", "T13_Camera_Space\T13_Camera_Space.vcxproj", "{DC83AC0A-21DE-4E11-994E-22D01EBE4540}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -81,6 +83,10 @@ Global
 		{E9F1646E-B052-4C35-8ECD-86CEED2B47B6}.Debug|Win32.Build.0 = Debug|Win32
 		{E9F1646E-B052-4C35-8ECD-86CEED2B47B6}.Release|Win32.ActiveCfg = Release|Win32
 		{E9F1646E-B052-4C35-8ECD-86CEED2B47B6}.Release|Win32.Build.0 = Release|Win32
+		{DC83AC0A-21DE-4E11-994E-22D01EBE4540}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC83AC0A-21DE-4E11-994E-22D01EBE4540}.Debug|Win32.Build.0 = Debug|Win32
+		{DC83AC0A-21DE-4E11-994E-22D01EBE4540}.Release|Win32.ActiveCfg = Release|Win32
+		{DC83AC0A-21DE-4E11-994E-22D01EBE4540}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
